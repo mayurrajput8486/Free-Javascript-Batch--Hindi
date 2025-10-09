@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 250px;
+    background: linear-gradient(rgb(241, 179, 232),rgb(211, 218, 238),rgb(235, 242, 199));
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-bottom: 25px;
+}
+.pass{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#password{
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+    font-size: 15px;
+}
+#password:focus{
+    box-shadow: 0px 0px 2px 2px rgb(142, 13, 110);
+}
+.checkpass{
+    margin-top: 15px;
+}
+.check{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

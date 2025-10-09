@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use Html Events</title>
+</head>
+<body>
+    <div id="block1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequatur tempora doloribus obcaecati architecto earum odio fuga ullam! Unde corrupti itaque at delectus sint quisquam.
+    </div>
+    <br>
+    <button onclick="bgMode ()">Change BG Color</button>
+
+    <button ondblclick="changeColor ()">Change Color</button>
+
+    <button onmouseover="increaseSize ()">Change Font Size</button>
+
+    <button onmouseover="mixedStyle ()">AllStyle</button>
+
+    <button onmouseout="changeContent ()">changeText</button>
+
+    <button onclick="changeTextwithTag ()">changeTextwithTag</button>
+
+    <button onclick="document.getElementById('block1').style.color = 'red'">without function</button>
+    <script src="./dynamic.js"></script>
+</body>
+</html>

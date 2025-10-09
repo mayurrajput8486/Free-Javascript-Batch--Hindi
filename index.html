@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.warn(`--------- Check Entered Letter is Vowel and Consonant--------`);
+        //vowels - a,e,i,o,u
+        const checkLetter = (letter) =>{
+            let myLetter = letter.toLowerCase()
+            let exp1 = myLetter === 'a' || myLetter === 'e' || myLetter === 'i' || myLetter === 'o' || myLetter === 'u'
+
+            let exp2 = myLetter >= 'a' && myLetter <= 'z'
+
+            if(exp1){
+                console.log(`${letter} is Vowel`);
+            }else if(exp2){
+                console.log(`${letter} is consonant`)
+            }else{
+                console.log(`Enter Valid alphabates`);
+                
+            }
+        }
+        checkLetter('b')
+        checkLetter('u')
+        checkLetter('m')
+        checkLetter('i')
+        checkLetter('A')
+        checkLetter('B')
+        checkLetter('123')
+
+        console.warn(`---------- Print the count of vowel from entered string-------------`);
+        console.warn(`---------- Print the vowel from entered string-------------`);
+        //javascript ----   a,a,i    --- 3
+
+        console.warn(`-------------- Reverse a String -------------------`);
+        //hello ----   olleh
+        //reverse
+        //join  - convert array into string
+        //split - convert string into array
+
+        const arr1 = ['Good','Morning','Everyone']
+        console.log(arr1);
+        const result1 = arr1.join(" ")
+        console.log(result1,'- join method');
+
+        const str1 = "Good Morning Everyone"
+        console.log(str1);
+        const result2 = str1.split(" ")
+        console.log(result2);
+        
+        const reverseData = (data) =>{
+            let mydata = data.split("").reverse().join("")
+            console.log(`Reverse of ${data} -- ${mydata}`)
+        }
+        reverseData('hello')
+        reverseData('welcome')
+        reverseData('234')
+        
+        
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btngroup{
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+}
+.content1{
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+p{
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
